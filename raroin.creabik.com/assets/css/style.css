@@ -10,6 +10,14 @@
 /* ===================
 - 1/ CSS Basic classes
 =======================*/
+.card_flex{
+  display: flex;
+  justify-content: space-between;
+}
+.card_text{
+  max-width: 400px;
+  max-height: 400px;
+}
 .color .color_box {
   margin-bottom: 20px;
 }
@@ -168,7 +176,7 @@ img {
 }
 
 .color_text {
-  color: #6f7d95;
+  color: #183b56;
 }
 
 .color_yellow {
@@ -10850,7 +10858,8 @@ a:hover {
 }
 
 h1 {
-  font-size: calc( 40px + 15 * ((100vw - 576px) / 1024));
+  font-size: calc(
+ 40px + 15 * ((100vw - 576px) / 1024));
   line-height: 1.2;
   letter-spacing: -0.02em;
 }
@@ -10874,7 +10883,8 @@ h1 {
 }
 
 h2 {
-  font-size: calc( 32px + 2 * ((100vw - 576px) / 1024));
+  font-size: calc(
+ 32px + 2 * ((100vw - 576px) / 1024));
   line-height: 1.15;
   letter-spacing: -0.02em;
 }
@@ -10892,7 +10902,8 @@ h2 {
 }
 
 h3 {
-  font-size: calc( 24px + 2 * ((100vw - 576px) / 1024));
+  font-size: calc(
+ 24px + 2 * ((100vw - 576px) / 1024));
   line-height: 1.1;
 }
 
@@ -10909,7 +10920,8 @@ h3 {
 }
 
 h4 {
-  font-size: calc( 19px + 1 * ((100vw - 576px) / 1024));
+  font-size: calc(
+ 19px + 1 * ((100vw - 576px) / 1024));
   line-height: 1.35;
 }
 
@@ -10926,7 +10938,8 @@ h4 {
 }
 
 h5 {
-  font-size: calc( 16px + 2 * ((100vw - 576px) / 1024));
+  font-size: calc(
+ 16px + 2 * ((100vw - 576px) / 1024));
   line-height: 1.5;
 }
 
@@ -10943,7 +10956,8 @@ h5 {
 }
 
 h6 {
-  font-size: calc( 15.5px + 0.5 * ((100vw - 576px) / 1024));
+  font-size: calc(
+ 15.5px + 0.5 * ((100vw - 576px) / 1024));
   line-height: 1.5;
   letter-spacing: 0;
 }
@@ -13494,7 +13508,7 @@ label:active:after {
           box-shadow: 0px 17px 13px 0px #192c4b05;
   margin: auto;
   margin-bottom: 30px;
-  max-width: 30rem;
+  max-width: 50rem;
   overflow: hidden;
   -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -13779,7 +13793,9 @@ label:active:after {
 }
 
 .card__item.three .card_head, .card__item.four .card_head {
+  margin: 0;
   max-height: 300px;
+  max-width: 300px;
   position: relative;
 }
 
@@ -20365,7 +20381,8 @@ label:active:after {
 .blog .blog-title {
   margin: 0 0 20px;
   color: #183b56;
-  font-size: calc( 19px + 7 * ((100vw - 576px) / 1024));
+  font-size: calc(
+ 19px + 7 * ((100vw - 576px) / 1024));
   line-height: 1.33;
   max-height: 2.66em;
   letter-spacing: 0.2px;
